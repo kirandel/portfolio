@@ -1,0 +1,156 @@
+body, html {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	min-width: 960px;
+	background-color: black;
+	-webkit-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: Gill Sans;
+
+	background: #43cea2;
+	background: -webkit-linear-gradient(to left, #43cea2 , #185a9d); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #43cea2 , #185a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#header {
+	position: fixed;
+	z-index: 10000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #A5BE00;
+	background: rgba(255, 255, 255, 0.95);
+	height: 3em;
+	line-height: 3em;
+	box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+	opacity: 0.8;
+}
+
+body {
+	padding-top: 3em;
+}
+
+#nav {
+	position: absolute;
+	right: 0.5em;
+	top: 0;
+	height: 3em;
+	line-height: 3em;
+}
+
+#nav ul {
+	margin: 0;
+}
+
+#nav ul li {
+	display: inline-block;
+	margin-left: 0.5em;
+	font-size: 0.9em;
+}
+
+#nav ul li a {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+	height: 3em;
+	line-height: 3em;
+	padding: 0 0.5em 0 0.5em;
+	outline: 0;
+}
+
+
+
+.content_page {
+	width: 70%;
+/*	height: 1000px;
+*/	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+/*	opacity: 0.4;*/
+
+}
+
+
+
+
+#portfolio_page_content{
+	color: #ffffff;
+}
+
+#world_map {
+/*	width:1000px;
+	height:550px;*/
+	max-width: 100%;
+    height: auto;
+    width: auto\9;
+    max-height:550px;
+}
+
+
+#work_samples {
+/*	width:1000px;
+	height:550px;*/
+	max-width: 100%;
+    height: auto;
+    width: auto\9;
+    max-height:2000px;
+}
+
+
+
+
+
+#pad {
+	height: 35px;
+
+}
+
+
+#landing_page {
+	background-color: #BCE784;
+	height: 300px;
+	opacity: 0.9;
+	border-radius: 5px;
+}
+
+
+#landing_page_content {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 90px;
+	line-height: 300px;
+	color: #ffffff;
+}
+
+
+#about_me_content {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 25px;
+/*	line-height: 300px;*/
+	color: #ffffff;
+}
+
+
+
+
+#background_page {
+/*	background-color: #5DD39E;*/
+	border-radius: 5px;
+/*	height:550px ;
+*/
+}
+
+#portfolio_page {
+	background-color: #348AA7;
+	border-radius: 5px;
+
+}
+
+#text {
+	color: #ffffff;
+}
